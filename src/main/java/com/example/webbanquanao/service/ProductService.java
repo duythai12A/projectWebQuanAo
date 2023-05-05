@@ -15,5 +15,4 @@ public interface ProductService {
 
     void delete(Long id);
 
-
 }

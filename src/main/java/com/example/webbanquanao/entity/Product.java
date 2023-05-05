@@ -15,12 +15,11 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "name")
+    private String name;
 
     @Column(name = "quantity")
     private Long quantity;
-
-    @Column(name = "name")
-    private String name;
 
     @Column(name = "price")
     private Float price;
@@ -28,7 +27,14 @@ public class Product {
     @Column(name = "description")
     private String description;
 
-    @Column(name = "cart_id")
-    private Long cartId;
+    @Column(name="image")
+    private String Image;
 
+//    @ManyToOne
+//    @JoinColumn(name = "categoryId")
+//    private category category;
+//
+//    @ManyToOne
+//    @JoinColumn(name = "supplierId")
+//    private supplier supplier;
 }

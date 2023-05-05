@@ -14,4 +14,9 @@ public class Constants {
 
     //Cart
     public static final String NOT_FOUND_Cart = "Không tìm thấy giỏ hàng";
+
+    //Supplier
+    public static final String NOT_FOUND_SUPPLIER="Không tìm thấy nhà cung cấp";
+
+    public static final String NOT_FOUND_CATEGORY="Không tìm thấy danh mục sản phẩm";
 }
